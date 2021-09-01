@@ -3,9 +3,8 @@
 namespace App\View\Components\Header;
 
 use Illuminate\View\Component;
-use Illuminate\Support\Facades\Blade;
 
-class TopArea extends Component
+class MobileOffcanvasMenu extends Component
 {
     /**
      * Create a new component instance.
@@ -24,14 +23,6 @@ class TopArea extends Component
      */
     public function render()
     {
-        return view('components.header.top-area');
-    }
-
-    /**
-    * Bootstrap your package's services.
-    */
-    public function boot()
-    {
-        Blade::component('top-area', TopArea::class);
+        return view('components.header.mobile-offcanvas-menu');
     }
 }

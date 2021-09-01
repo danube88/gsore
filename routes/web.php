@@ -22,7 +22,7 @@ Route::group([
 
 		Route::get('/index', function () {
             return view('index');
-        });
+        })->name('index');
 
 		Auth::routes();
 

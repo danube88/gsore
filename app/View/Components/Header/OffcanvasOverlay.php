@@ -1,11 +1,10 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Header;
 
 use Illuminate\View\Component;
-use Illuminate\Support\Facades\Blade;
 
-class Header extends Component
+class OffcanvasOverlay extends Component
 {
     /**
      * Create a new component instance.
@@ -24,14 +23,6 @@ class Header extends Component
      */
     public function render()
     {
-        return view('components.header');
-    }
-
-    /**
-    * Bootstrap your package's services.
-    */
-    public function boot()
-    {
-        Blade::component('header', Header::class);
+        return view('components.header.offcanvas-overlay');
     }
 }
