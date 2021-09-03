@@ -9,7 +9,7 @@
                 <li class="offcanvas-add-cart__list pos-relative d-flex align-items-center justify-content-between ">
                     <div class="offcanvas-add-cart__content d-flex align-items-start m-r-10">
                         <div class="offcanvas-add-cart__img-box pos-relative">
-                            <a href="product-single-default.html" class="offcanvas-add-cart__img-link img-responsive"><img src="assets/img/product/size-small/product-home-1-img-1.jpg" alt="" class="add-cart__img"></a>
+                            <a href="product-single-default.html" class="offcanvas-add-cart__img-link img-responsive"><img src="../img/product/size-small/product-home-1-img-1.jpg" alt="" class="add-cart__img"></a>
                             <span class="offcanvas-add-cart__item-count pos-absolute">2x</span>
                         </div>
                         <div class="offcanvas-add-cart__detail">
@@ -24,7 +24,7 @@
                 <li class="offcanvas-add-cart__list pos-relative d-flex align-items-center justify-content-between">
                     <div class="offcanvas-add-cart__content d-flex  align-items-start m-r-10">
                         <div class="offcanvas-add-cart__img-box pos-relative">
-                            <a href="product-single-default.html" class="offcanvas-add-cart__img-link img-responsive"><img src="assets/img/product/size-small/product-home-1-img-2.jpg" alt="" class="add-cart__img"></a>
+                            <a href="product-single-default.html" class="offcanvas-add-cart__img-link img-responsive"><img src="../img/product/size-small/product-home-1-img-2.jpg" alt="" class="add-cart__img"></a>
                             <span class="offcanvas-add-cart__item-count pos-absolute">2x</span>
                         </div>
                         <div class="offcanvas-add-cart__detail">
