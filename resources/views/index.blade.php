@@ -8,10 +8,14 @@
     <x-header.offcanvas-overlay/>
 @endsection
 
-@section('main')
+@section('breadcrumb')
+    <li class="page-breadcrumb__nav">Home</li>
+@endsection
 
+@section('main')
+    <x-main.main/>
 @endsection
 
 @section('footer')
-
+    <x-footer.footer/>
 @endsection
