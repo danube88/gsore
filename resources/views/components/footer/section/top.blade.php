@@ -44,7 +44,7 @@
                     <li class="footer__list"><a href="" class="footer__link">Sitemap</a></li>
                     <li class="footer__list"><a href="" class="footer__link">Secure payment</a></li>
                     <li class="footer__list"><a href="" class="footer__link">Blog</a></li>
-                    <li class="footer__list"><a href="" class="footer__link">About us</a></li>
+                    <li class="footer__list"><a href="{{ route('about') }}" class="footer__link">About us</a></li>
                     <li class="footer__list"><a href="" class="footer__link">Carrers</a></li>
                 </ul>
             </div>

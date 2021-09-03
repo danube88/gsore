@@ -13,7 +13,7 @@
 @endsection
 
 @section('main')
-    <x-main.main/>
+    <x-home.main/>
 @endsection
 
 @section('footer')
