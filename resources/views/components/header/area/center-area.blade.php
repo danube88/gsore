@@ -97,7 +97,7 @@
                                                 <!--Megamenu Item Banner-->
                                                 <li class="mega-menu__banner ">
                                                     <a href="product-single-default.html" class="mega-menu__banner-link">
-                                                        <img src="../img/banner/menu-banner.jpg" alt="" class="mega-menu__banner-img mega-menu__banner-img--vertical">
+                                                        <img src="{{ URL::asset('img/banner/menu-banner.jpg') }}" alt="" class="mega-menu__banner-img mega-menu__banner-img--vertical" />
                                                     </a>
                                                 </li>
                                                 <!--Megamenu Item Banner-->
