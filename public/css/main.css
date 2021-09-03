@@ -37,7 +37,7 @@ Template URL: https://hasthemes.com/
 24 - Page - Blog
 25 - Page - Cart
 26 - Page - Checkout
-27 - Page - 404 
+27 - Page - 404
 28 - Page - My Account
 29 - Page - Login
 30 - Page - Contact
@@ -1793,7 +1793,7 @@ button.close {
 .page-breadcrumb {
   background: #ebebeb;
   text-align: center;
-  padding: 75px 0 75px 0px;
+  padding: 25px 0 25px 0px;
   margin-bottom: 60px;
 }
 @media (min-width: 768px) {
