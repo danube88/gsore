@@ -24,6 +24,10 @@ Route::group([
             return view('index');
         })->name('index');
 
+		Route::get('/about', function () {
+            return view('pages.about');
+        })->name('about');
+
 		Auth::routes();
 
 		Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
