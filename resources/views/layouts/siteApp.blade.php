@@ -42,6 +42,20 @@
     </header>
     <!-- :::::: End Header Section ::::::  -->
 
+    <!-- ::::::  Start  Breadcrumb Section  ::::::  -->
+    <div class="page-breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="page-breadcrumb__menu">
+                        @yield('breadcrumb')
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ::::::  End  Breadcrumb Section  ::::::  -->
+
     <!-- :::::: Start Main Container Wrapper :::::: -->
     <main id="main-container" class="main-container">
         @yield('main')
