@@ -118,7 +118,7 @@
                         <li>
                             <a href="#"><span>Pages</span></a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
                                 <li><a href="frequently-questions.html">Frequently Questions</a></li>
                                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
                                 <li><a href="404.html">404 Page</a></li>

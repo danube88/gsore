@@ -191,7 +191,7 @@
                                 <span class="menu-label menu-label--blue">New</span>
                                 <!--Single Dropdown Menu-->
                                 <ul class="dropdown__menu pos-absolute">
-                                    <li class="dropdown__list"><a href="about.html" class="dropdown__link">About Us</a></li>
+                                    <li class="dropdown__list"><a href="{{ route('about') }}" class="dropdown__link">About Us</a></li>
                                     <li class="dropdown__list pos-relative">
                                         <a href="frequently-questions.html" class="dropdown__link">Frequently Questions</a>
                                         <span class="menu-label menu-label--blue">New</span>
