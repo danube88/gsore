@@ -204,7 +204,7 @@
 
                             <!--Start Single Nav link-->
                             <li class="header__nav-item pos-relative">
-                                    <a href="contact.html" class="header__nav-link">Contact Us</a>
+                                    <a href="{{ route('contact') }}" class="header__nav-link">Contact Us</a>
                             </li> <!-- End Single Nav link-->
                         </ul>
                     </nav>

@@ -28,6 +28,10 @@ Route::group([
             return view('pages.about');
         })->name('about');
 
+		Route::get('/contact', function () {
+            return view('pages.contact');
+        })->name('contact');
+
 		Auth::routes();
 
 		Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
