@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    
+
     /*****************************
     * Commons Variables
     *****************************/
@@ -10,7 +10,7 @@
      /**********************
      * Sticky Menu
      ***********************/
-    $(window).on('scroll', function(event) {    
+    $(window).on('scroll', function(event) {
         var scroll = $(window).scrollTop();
         if (scroll < 350) {
             $(".sticky-header").removeClass("is-sticky");
@@ -107,8 +107,8 @@
         }
     });
 
-    /***************************** 
-    * Category more toggle  
+    /*****************************
+    * Category more toggle
     *****************************/
 
     $(".category-menu li.hidden").hide();
@@ -235,7 +235,7 @@
         prevArrow: '<button type="button" class="default-slider__arrow default-slider__arrow--left prevArrow"><i class="far fa-chevron-left"></button>',
         nextArrow: '<button type="button"  class="default-slider__arrow default-slider__arrow--right nextArrow"><i class="far fa-chevron-right"></button>',
     });
-        
+
 
     /************************************************
      * Blog Slider - Style: Feed [3 Grid, 1 Rows]
@@ -344,7 +344,7 @@
         nextArrow: '<button type="button"  class="gallery__nav gallery__nav-horizontal gallery__nav-horizontal--right nextArrow"><i class="fas fa-chevron-right"></i></button>'
     });
     /***********************************
-    * Gallery - Vertical 
+    * Gallery - Vertical
     ************************************/
    $('.product-image--large-vertical').slick({
         slidesToShow: 1,
@@ -363,7 +363,7 @@
 
 
     /***********************************
-    * Gallery - Slider 
+    * Gallery - Slider
     ************************************/
    $('.product-gallery-box--single-slider').slick({
         slidesToShow: 3,
@@ -456,12 +456,12 @@
       max: 1000,
       values: [0, 1000],
       step: 100,
-    
+
       slide: function (event, ui) {
         if (ui.values[0] == ui.values[1]) {
           return false;
         }
-        
+
         $("#min_price").val(ui.values[0]);
         $("#max_price").val(ui.values[1]);
       }
@@ -548,11 +548,12 @@
         }
       });
     });
-    
 
-    /****************************
+
+    /**************************** 
     * Google Map - Location
     *****************************/
+
    function init() {
     var mapOptions = {
         zoom: 11,
@@ -564,7 +565,7 @@
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.709896, -73.995481),
         map: map,
-        icon: 'assets/img/icon/map-point.png',
+        icon: '../img/icon/map-point.png',
         animation:google.maps.Animation.BOUNCE,
         title: 'Snazzy!'
     });
