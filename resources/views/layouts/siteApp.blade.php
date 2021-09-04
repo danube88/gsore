@@ -202,6 +202,7 @@
     <script src="{{ asset('js/plugin/venobox.min.js') }}"></script>
     <script src="{{ asset('js/plugin/jquery.waypoints.js') }}"></script>
     <script src="{{ asset('js/plugin/jquery.lineProgressbar.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGM-62ap9R-huo50hJDn05j3x-mU9151Y"></script>
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
     <!-- <script src="{{ asset('js/vendor/vendor.min.js') }}"></script>
