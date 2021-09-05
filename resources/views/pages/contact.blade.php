@@ -20,3 +20,7 @@
 @section('footer')
     <x-footer.footer/>
 @endsection
+
+@push('scripts')
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGM-62ap9R-huo50hJDn05j3x-mU9151Y"></script>
+@endpush

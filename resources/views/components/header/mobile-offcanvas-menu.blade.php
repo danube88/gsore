@@ -40,7 +40,7 @@
                 </ul>  <!-- End Mobile User Action -->
                 <div class="offcanvas-menu">
                     <ul>
-                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="{{ route('index') }}"><span>Home</span></a></li>
                         <li>
                             <a href="#"><span>Shop</span></a>
                             <ul class="sub-menu">
