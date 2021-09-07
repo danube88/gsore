@@ -102,15 +102,15 @@
                                 <li>
                                     <a href="#">Blog List</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog-list-sidebar-left.html"> Blog List Left Sidebar</a></li>
-                                        <li><a href="blog-list-sidebar-right.html"> Blog List Right Sidebar</a></li>
+                                        <li><a href="{{ route('blogListSidebarLeft') }}"> Blog List Left Sidebar</a></li>
+                                        <li><a href="{{ route('blogListSidebarRight') }}"> Blog List Right Sidebar</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#">Blog Single</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog-single-sidebar-left.html"> Blog Single Left Sidebar</a></li>
-                                        <li><a href="blog-single-sidebar-right.html"> Blog Single Right Sidebar</a></li>
+                                        <li><a href="{{ route('blogSingleSidebarLeft') }}"> Blog Single Left Sidebar</a></li>
+                                        <li><a href="{{ route('blogSingleSidebarRight') }}"> Blog Single Right Sidebar</a></li>
                                     </ul>
                                 </li>
                             </ul>
