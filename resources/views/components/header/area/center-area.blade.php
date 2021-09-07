@@ -170,15 +170,15 @@
                                     <li class="dropdown__list">
                                         <a href="#" class="dropdown__link d-flex justify-content-between align-items-center">Blog List <i class="far fa-chevron-right"></i></a>
                                         <ul class="dropdown__submenu pos-absolute">
-                                            <li class="dropdown__submenu-list"><a href="blog-list-sidebar-left.html" class="dropdown__submenu-link"> Blog List Left Sidebar</a></li>
-                                            <li class="dropdown__submenu-list"><a href="blog-list-sidebar-right.html" class="dropdown__submenu-link"> Blog List Right Sidebar</a></li>
+                                            <li class="dropdown__submenu-list"><a href="{{ route('blogListSidebarLeft') }}" class="dropdown__submenu-link"> Blog List Left Sidebar</a></li>
+                                            <li class="dropdown__submenu-list"><a href="{{ route('blogListSidebarRight') }}" class="dropdown__submenu-link"> Blog List Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown__list">
                                         <a href="#" class="dropdown__link d-flex justify-content-between align-items-center">Blog Single <i class="far fa-chevron-right"></i></a>
                                         <ul class="dropdown__submenu pos-absolute">
-                                            <li class="dropdown__submenu-list"><a href="blog-single-sidebar-left.html" class="dropdown__submenu-link"> Blog Single Left Sidebar</a></li>
-                                            <li class="dropdown__submenu-list"><a href="blog-single-sidebar-right.html" class="dropdown__submenu-link"> Blog Single Right Sidebar</a></li>
+                                            <li class="dropdown__submenu-list"><a href="{{ route('blogSingleSidebarLeft') }}" class="dropdown__submenu-link"> Blog Single Left Sidebar</a></li>
+                                            <li class="dropdown__submenu-list"><a href="{{ route('blogSingleSidebarRight') }}" class="dropdown__submenu-link"> Blog Single Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                 </ul>
