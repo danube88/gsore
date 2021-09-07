@@ -47,8 +47,8 @@
                                 <li>
                                     <a href="#">Shop Layout</a>
                                     <ul class="sub-menu">
-                                        <li><a href="shop-sidebar-grid-left.html">Grid Left Sidebar</a></li>
-                                        <li><a href="shop-sidebar-grid-right.html">Grid Right Sidebar</a></li>
+                                        <li><a href="{{ route('shopGridSidebarLeft') }}">Grid Left Sidebar</a></li>
+                                        <li><a href="{{ route('shopGridSidebarRight') }}">Grid Right Sidebar</a></li>
                                         <li><a href="shop-sidebar-full-width.html">Full Width</a></li>
                                         <li><a href="shop-sidebar-left-list-view.html">List Left Sidebar</a></li>
                                         <li><a href="shop-sidebar-right-list-view.html">List Right Sidebar</a></li>
@@ -95,8 +95,8 @@
                                 <li>
                                     <a href="#">Blog Grid</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog-grid-sidebar-left.html"> Blog Grid Left Sidebar</a></li>
-                                        <li><a href="blog-grid-sidebar-right.html"> Blog Grid Right Sidebar</a></li>
+                                        <li><a href="{{ route('blogGridSidebarLeft') }}"> Blog Grid Left Sidebar</a></li>
+                                        <li><a href="{{ route('blogGridSidebarRight') }}"> Blog Grid Right Sidebar</a></li>
                                     </ul>
                                 </li>
                                 <li>
