@@ -18,7 +18,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus expedita quo voluptate, esse ratione facilis quibusdam vel ad, quas ut reiciendis neque voluptates adipisci laborum, dolor saepe natus.
                             </p>
                         </div>
-                        <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="blog-single-sidebar-left.html">Read More</a>
+                        <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="{{ route('blogSingleSidebarLeft') }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus expedita quo voluptate, esse ratione facilis quibusdam vel ad, quas ut reiciendis neque voluptates adipisci laborum, dolor saepe natus.
                             </p>
                         </div>
-                            <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="blog-single-sidebar-left.html">Read More</a>
+                            <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="{{ route('blogSingleSidebarLeft') }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus expedita quo voluptate, esse ratione facilis quibusdam vel ad, quas ut reiciendis neque voluptates adipisci laborum, dolor saepe natus.
                             </p>
                         </div>
-                        <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="blog-single-sidebar-left.html">Read More</a>
+                        <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="{{ route('blogSingleSidebarLeft') }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus expedita quo voluptate, esse ratione facilis quibusdam vel ad, quas ut reiciendis neque voluptates adipisci laborum, dolor saepe natus.
                             </p>
                         </div>
-                        <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="blog-single-sidebar-left.html">Read More</a>
+                        <a class="btn btn--radius btn--small btn--black btn--black-hover-green" href="{{ route('blogSingleSidebarLeft') }}">Read More</a>
                     </div>
                 </div>
             </div>
