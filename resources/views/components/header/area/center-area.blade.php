@@ -28,9 +28,9 @@
                                         <div class="mega-menu__item-box">
                                             <span class="mega-menu__title">Shop Layout</span>
                                             <ul class="mega-menu__item">
-                                                <li class="mega-menu__list"><a href="shop-sidebar-grid-left.html" class="mega-menu__link">Grid Left Sidebar</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('shopGridSidebarLeft') }}" class="mega-menu__link">Grid Left Sidebar</a></li>
                                                 <li class="mega-menu__list pos-relative">
-                                                    <a href="shop-sidebar-grid-right.html" class="mega-menu__link">Grid Right Sidebar</a>
+                                                    <a href="{{ route('shopGridSidebarRight') }}" class="mega-menu__link">Grid Right Sidebar</a>
                                                     <span class="menu-label menu-label--red">New</span>
                                                 </li>
                                                 <li class="mega-menu__list"><a href="shop-sidebar-full-width.html" class="mega-menu__link">Full Width</a></li>
@@ -163,8 +163,8 @@
                                     <li class="dropdown__list">
                                         <a href="#" class="dropdown__link d-flex justify-content-between align-items-center">Blog Grid <i class="far fa-chevron-right"></i></a>
                                         <ul class="dropdown__submenu pos-absolute">
-                                            <li class="dropdown__submenu-list"><a href="blog-grid-sidebar-left.html" class="dropdown__submenu-link"> Blog Grid Left Sidebar</a></li>
-                                            <li class="dropdown__submenu-list"><a href="blog-grid-sidebar-right.html" class="dropdown__submenu-link"> Blog Grid Right Sidebar</a></li>
+                                            <li class="dropdown__submenu-list"><a href="{{ route('blogGridSidebarLeft') }}" class="dropdown__submenu-link"> Blog Grid Left Sidebar</a></li>
+                                            <li class="dropdown__submenu-list"><a href="{{ route('blogGridSidebarRight') }}" class="dropdown__submenu-link"> Blog Grid Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown__list">
