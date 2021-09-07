@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components\Blog\GridSidebar\Section;
+namespace App\View\Components\Blog\Section;
 
 use Illuminate\View\Component;
 
-class Menu extends Component
+class Tag extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class Menu extends Component
      */
     public function render()
     {
-        return view('components.blog.grid-sidebar.section.menu');
+        return view('components.blog.section.tag');
     }
 }

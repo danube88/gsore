@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components\Blog\GridSidebar\Section;
+namespace App\View\Components\Blog\Section;
 
 use Illuminate\View\Component;
 
-class Post extends Component
+class Menu extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class Post extends Component
      */
     public function render()
     {
-        return view('components.blog.grid-sidebar.section.post');
+        return view('components.blog.section.menu');
     }
 }
