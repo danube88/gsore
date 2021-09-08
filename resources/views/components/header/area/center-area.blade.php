@@ -44,7 +44,7 @@
                                         <div class="mega-menu__item-box">
                                             <span class="mega-menu__title">Shop Pages</span>
                                             <ul class="mega-menu__item">
-                                                <li class="mega-menu__list"><a href="cart.html" class="mega-menu__link">Cart</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('cart') }}" class="mega-menu__link">Cart</a></li>
                                                 <li class="mega-menu__list"><a href="checkout.html" class="mega-menu__link">Checkout</a></li>
                                                 <li class="mega-menu__list"><a href="compare.html" class="mega-menu__link">Compare</a></li>
                                                 <li class="mega-menu__list pos-relative">

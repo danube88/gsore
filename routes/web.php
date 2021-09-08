@@ -78,6 +78,13 @@ Route::group([
 			Route::get('/grid-sidebar-right', function () {
 	            return view('pages.shop.grid-sidebar-right');
 	        })->name('shopGridSidebarRight');
+
+			Route::group(['prefix' => 'page'], function()
+			{
+				Route::get('/cart', function () {
+					return view('pages.shop.pages.cart');
+				})->name('cart');
+			});
 		});
 
 		Auth::routes();
