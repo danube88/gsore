@@ -84,6 +84,9 @@ Route::group([
 				Route::get('/cart', function () {
 					return view('pages.shop.pages.cart');
 				})->name('cart');
+				Route::get('/checkout', function () {
+					return view('pages.shop.pages.checkout');
+				})->name('checkout');
 			});
 		});
 

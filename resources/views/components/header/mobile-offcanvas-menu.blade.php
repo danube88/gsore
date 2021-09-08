@@ -60,7 +60,7 @@
                                     <a href="#">Shop Pages</a>
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('cart') }}">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="{{ route('checkout') }}'">Checkout</a></li>
                                         <li><a href="compare.html">Compare</a></li>
                                         <li><a href="empty-cart.html">Empty Cart</a></li>
                                         <li><a href="wishlist.html">Wishlist</a></li>
