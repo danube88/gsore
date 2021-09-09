@@ -6,7 +6,7 @@
                             <li>
                                 <div class="header__mobile-logo">
                                     <a href="{{ route('index') }}" class="header__mobile-logo-link">
-                                        <img src="../img/logo/logo.png" alt="" class="header__mobile-logo-img">
+                                        <img src="{{ config('app.url') }}/img/logo/logo.png" alt="" class="header__mobile-logo-img">
                                     </a>
                                 </div>
                             </li>
