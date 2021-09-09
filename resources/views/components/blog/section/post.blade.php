@@ -5,7 +5,7 @@
     <ul class="sidebar__post-blog list-space--small">
         <li class="d-flex align-items-center ">
             <a class="sidebar__post-img img-responsive" href="#">
-                <img src="{{ URL::asset('img/product/size-small/product-home-1-img-1.jpg') }}" alt="">
+                <img src="{{ config('app.url') }}/img/product/size-small/product-home-1-img-1.jpg" alt="">
             </a>
             <div class="sidebar__post-content">
                 <span class="d-block color-gray">Jul 23, 2020</span>
@@ -14,7 +14,7 @@
         </li>
         <li class="d-flex align-items-center">
             <a class="sidebar__post-img img-responsive" href="#">
-                <img src="{{ URL::asset('img/product/size-small/product-home-1-img-2.jpg') }}" alt="">
+                <img src="{{ config('app.url') }}/img/product/size-small/product-home-1-img-2.jpg" alt="">
             </a>
             <div class="sidebar__post-content">
                 <span class="d-block color-gray">Jul 16, 2020</span>
