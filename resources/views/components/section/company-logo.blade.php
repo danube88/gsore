@@ -6,43 +6,43 @@
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-1.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-1.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-2.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-2.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-3.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-3.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-4.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-4.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-5.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-5.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-6.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-6.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                     <!-- Start Single Company Logo Item -->
                     <div class="company-logo__item">
                         <a href="#" class="company-logo__link">
-                            <img src="../img/company-logo/company-logo-7.png" alt="" class="company-logo__img">
+                            <img src="{{ config('app.url') }}/img/company-logo/company-logo-7.png" alt="" class="company-logo__img">
                         </a>
                     </div> <!-- End Single Company Logo Item -->
                 </div>
