@@ -5,7 +5,7 @@
                 <!-- Start Logo -->
                 <div class="header__logo">
                     <a href="{{ route('index') }}" class="header__logo-link img-responsive">
-                        <img class="header__logo-img img-fluid" src="../img/logo/logo.png" alt="">
+                        <img class="header__logo-img img-fluid" src="{{ config('app.url') }}/img/logo/logo.png" alt="">
                     </a>
                 </div> <!-- End Logo -->
                  <!-- Start Header Menu -->
@@ -46,14 +46,14 @@
                                             <ul class="mega-menu__item">
                                                 <li class="mega-menu__list"><a href="{{ route('cart') }}" class="mega-menu__link">Cart</a></li>
                                                 <li class="mega-menu__list"><a href="{{ route('checkout') }}" class="mega-menu__link">Checkout</a></li>
-                                                <li class="mega-menu__list"><a href="compare.html" class="mega-menu__link">Compare</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('compare') }}" class="mega-menu__link">Compare</a></li>
                                                 <li class="mega-menu__list pos-relative">
-                                                    <a href="empty-cart.html" class="mega-menu__link">Empty Cart</a>
+                                                    <a href="{{ route('empty-cart') }}" class="mega-menu__link">Empty Cart</a>
                                                     <span class="menu-label menu-label--blue">New</span>
                                                 </li>
-                                                <li class="mega-menu__list"><a href="wishlist.html" class="mega-menu__link">Wishlist</a></li>
-                                                <li class="mega-menu__list"><a href="my-account.html" class="mega-menu__link">My Account</a></li>
-                                                <li class="mega-menu__list"><a href="login.html" class="mega-menu__link">Login</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('wishlist') }}" class="mega-menu__link">Wishlist</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('my-account') }}" class="mega-menu__link">My Account</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('login') }}" class="mega-menu__link">Login</a></li>
                                             </ul>
                                         </div>
                                         <!--Single Megamenu Item Menu-->
@@ -97,7 +97,7 @@
                                                 <!--Megamenu Item Banner-->
                                                 <li class="mega-menu__banner ">
                                                     <a href="product-single-default.html" class="mega-menu__banner-link">
-                                                        <img src="{{ URL::asset('img/banner/menu-banner.jpg') }}" alt="" class="mega-menu__banner-img mega-menu__banner-img--vertical" />
+                                                        <img src="{{ config('app.url') }}/img/banner/menu-banner.jpg" alt="" class="mega-menu__banner-img mega-menu__banner-img--vertical" />
                                                     </a>
                                                 </li>
                                                 <!--Megamenu Item Banner-->
@@ -147,7 +147,7 @@
                                     <!--Megamenu Item Banner-->
                                     <li class="mega-menu__banner m-t-30">
                                         <a href="product-single-default.html" class="mega-menu__banner-link">
-                                            <img src="../img/banner/menu-banner-2.png" alt="" class="mega-menu__banner-img mega-menu__banner-img--horaizontal">
+                                            <img src="{{ config('app.url') }}/img/banner/menu-banner-2.png" alt="" class="mega-menu__banner-img mega-menu__banner-img--horaizontal">
                                         </a>
                                     </li>
                                     <!--Megamenu Item Banner-->
