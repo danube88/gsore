@@ -2,7 +2,7 @@
     <!-- Start Single Blog Grid -->
     <div class="col-md-6">
         <div class="blog__type-grid">
-            <div class="blog__img"><a href=""><img src="{{ URL::asset('img/blog/feed/blog-feed-home-1-img-1.jpg') }}" alt=""></a></div>
+            <div class="blog__img"><a href=""><img src="{{ config('app.url') }}/img/blog/feed/blog-feed-home-1-img-1.jpg" alt=""></a></div>
 
             <div class="blog__content">
                 <a href=""><h3 class="blog__title m-t-25">Consectetur Adipisicing</h3></a>
@@ -23,9 +23,9 @@
     <div class="col-md-6">
         <div class="blog__type-grid">
             <div class="inner-slider inner-slider-grid-1 pos-relative">
-                <div class="blog__img"><img src="{{ URL::asset('img/blog/feed/blog-feed-home-1-img-2.jpg') }}" alt=""></div>
-                <div class="blog__img"><img src="{{ URL::asset('img/blog/feed/blog-feed-home-1-img-1.jpg') }}" alt=""></div>
-                <div class="blog__img"><img src="{{ URL::asset('img/blog/feed/blog-feed-home-1-img-3.jpg') }}" alt=""></div>
+                <div class="blog__img"><img src="{{ config('app.url') }}/img/blog/feed/blog-feed-home-1-img-2.jpg" alt=""></div>
+                <div class="blog__img"><img src="{{ config('app.url') }}/img/blog/feed/blog-feed-home-1-img-1.jpg" alt=""></div>
+                <div class="blog__img"><img src="{{ config('app.url') }}/img/blog/feed/blog-feed-home-1-img-3.jpg" alt=""></div>
             </div>
             <div class="blog__content">
                 <a href=""><h3 class="blog__title m-t-25">Without Very Darkness</h3></a>
@@ -47,7 +47,7 @@
         <div class="blog__type-grid">
             <div class="blog__img">
                 <div class="blog__video pos-relative">
-                    <img src="{{ URL::asset('img/blog/feed/blog-feed-home-1-img-4.jpg') }}" alt="">
+                    <img src="{{ config('app.url') }}/img/blog/feed/blog-feed-home-1-img-4.jpg" alt="">
                     <a class="popup-icon vinobox-popup pos-absolute" data-autoplay="true" data-vbtype="video" href="https://youtu.be/QQHLGlB4Dpk?list=PLk25BQFrj7wHgCkzPuejFXJTiFIam-MVq"><i class="fal fa-play"></i></a>
                 </div>
             </div>
