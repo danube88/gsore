@@ -4,7 +4,7 @@
             <div class="footer__about">
                 <div class="footer__logo">
                     <a href="index.html" class="footer__logo-link">
-                        <img src="../img/logo/logo.png" alt="" class="footer__logo-img">
+                        <img src="{{ config('app.url') }}/img/logo/logo.png" alt="" class="footer__logo-img">
                     </a>
                 </div>
                 <ul class="footer__address">
