@@ -10,7 +10,7 @@
                  <!-- Start Footer Payment Logo -->
                 <div class="footer__payment">
                     <a href="#" class="footer__payment-link">
-                        <img src="../img/company-logo/payment.png" alt="" class="footer__payment-img">
+                        <img src="{{ config('app.url') }}/img/company-logo/payment.png" alt="" class="footer__payment-img">
                     </a>
                 </div>  <!-- End Footer Payment Logo -->
             </div>
