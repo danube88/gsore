@@ -84,9 +84,26 @@ Route::group([
 				Route::get('/cart', function () {
 					return view('pages.shop.pages.cart');
 				})->name('cart');
+
 				Route::get('/checkout', function () {
 					return view('pages.shop.pages.checkout');
 				})->name('checkout');
+
+				Route::get('/compare', function () {
+					return view('pages.shop.pages.compare');
+				})->name('compare');
+
+				Route::get('/empty-cart', function () {
+					return view('pages.shop.pages.empty-cart');
+				})->name('empty-cart');
+
+				Route::get('/wishlist', function () {
+					return view('pages.shop.pages.wishlist');
+				})->name('wishlist');
+
+				Route::get('/my-account', function () {
+					return view('pages.shop.pages.my-account');
+				})->name('my-account');
 			});
 		});
 
