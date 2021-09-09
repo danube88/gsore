@@ -89,7 +89,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="modal__product-img">
-                                        <img class="img-fluid" src="../img/product/size-normal/product-home-1-img-1.jpg" alt="">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/img/product/size-normal/product-home-1-img-1.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
@@ -132,7 +132,7 @@
                             <div class="col-md-6">
                                 <div class="product-gallery-box m-b-60">
                                     <div class="modal-product-image--large">
-                                        <img class="img-fluid" src="../img/product/gallery/gallery-large/product-gallery-large-1.jpg" alt="">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/img/product/gallery/gallery-large/product-gallery-large-1.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
