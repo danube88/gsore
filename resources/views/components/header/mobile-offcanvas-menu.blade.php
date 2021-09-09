@@ -60,12 +60,12 @@
                                     <a href="#">Shop Pages</a>
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('cart') }}">Cart</a></li>
-                                        <li><a href="{{ route('checkout') }}'">Checkout</a></li>
-                                        <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="empty-cart.html">Empty Cart</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="{{ route('checkout') }}">Checkout</a></li>
+                                        <li><a href="{{ route('compare') }}">Compare</a></li>
+                                        <li><a href="{{ route('empty-cart') }}">Empty Cart</a></li>
+                                        <li><a href="{{ route('wishlist') }}">Wishlist</a></li>
+                                        <li><a href="{{ route('my-account') }}">My Account</a></li>
+                                        <li><a href="{{ route('login') }}">Login</a></li>
 
                                     </ul>
                                 </li>
