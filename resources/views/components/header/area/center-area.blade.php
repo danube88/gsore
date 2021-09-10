@@ -33,9 +33,9 @@
                                                     <a href="{{ route('shopGridSidebarRight') }}" class="mega-menu__link">Grid Right Sidebar</a>
                                                     <span class="menu-label menu-label--red">New</span>
                                                 </li>
-                                                <li class="mega-menu__list"><a href="shop-sidebar-full-width.html" class="mega-menu__link">Full Width</a></li>
-                                                <li class="mega-menu__list"><a href="shop-sidebar-left-list-view.html" class="mega-menu__link">List Left Sidebar</a></li>
-                                                <li class="mega-menu__list"><a href="shop-sidebar-right-list-view.html" class="mega-menu__link">List Right Sidebar</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('shopFullSidebar') }}" class="mega-menu__link">Full Width</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('shopListSidebarLeft') }}" class="mega-menu__link">List Left Sidebar</a></li>
+                                                <li class="mega-menu__list"><a href="{{ route('shopListSidebarRight') }}" class="mega-menu__link">List Right Sidebar</a></li>
                                             </ul>
                                         </div>
                                         <!--Single Megamenu Item Menu-->
