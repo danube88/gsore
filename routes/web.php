@@ -71,13 +71,28 @@ Route::group([
 
 		Route::group(['prefix' => 'shop'], function()
 		{
-			Route::get('/grid-sidebar-left', function () {
-	            return view('pages.shop.grid-sidebar-left');
-	        })->name('shopGridSidebarLeft');
+			Route::group(['prefix' => 'layout'], function()
+			{
+				Route::get('/grid-sidebar-left', function () {
+		            return view('pages.shop.layout.shop-sidebar-grid-left');
+		        })->name('shopGridSidebarLeft');
 
-			Route::get('/grid-sidebar-right', function () {
-	            return view('pages.shop.grid-sidebar-right');
-	        })->name('shopGridSidebarRight');
+				Route::get('/grid-sidebar-right', function () {
+		            return view('pages.shop.layout.shop-sidebar-grid-right');
+		        })->name('shopGridSidebarRight');
+
+				Route::get('/list-sidebar-left', function () {
+		            return view('pages.shop.layout.shop-sidebar-left-list-view');
+		        })->name('shopListSidebarLeft');
+
+				Route::get('/list-sidebar-right', function () {
+		            return view('pages.shop.layout.shop-sidebar-right-list-view');
+		        })->name('shopListSidebarRight');
+
+				Route::get('/full-sidebar', function () {
+		            return view('pages.shop.layout.shop-sidebar-full-width');
+		        })->name('shopFullSidebar');
+			});
 
 			Route::group(['prefix' => 'page'], function()
 			{
