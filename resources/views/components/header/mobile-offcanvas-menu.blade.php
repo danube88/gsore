@@ -49,9 +49,9 @@
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('shopGridSidebarLeft') }}">Grid Left Sidebar</a></li>
                                         <li><a href="{{ route('shopGridSidebarRight') }}">Grid Right Sidebar</a></li>
-                                        <li><a href="shop-sidebar-full-width.html">Full Width</a></li>
-                                        <li><a href="shop-sidebar-left-list-view.html">List Left Sidebar</a></li>
-                                        <li><a href="shop-sidebar-right-list-view.html">List Right Sidebar</a></li>
+                                        <li><a href="{{ route('shopFullSidebar') }}">Full Width</a></li>
+                                        <li><a href="{{ route('shopListSidebarLeft') }}">List Left Sidebar</a></li>
+                                        <li><a href="{{ route('shopListSidebarRight') }}">List Right Sidebar</a></li>
                                     </ul>
                                 </li>
                             </ul>
